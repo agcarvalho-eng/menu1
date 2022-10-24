@@ -5,75 +5,110 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Atividade Metadados e Elementos Semânticos</title>
+    <title>Atividade Implementando um Menu</title>
     <meta name="author" content="Adriano Carvalho">
+    <link rel="stylesheet" href="Estilo_menu.css">
 </head>
 
 <body>
 
-    <a href="http://lattes.cnpq.br/8261115135036352"><img src="Foto_Adriano1.png" alt="Foto do Adriano" style="border-radius:60%" title="Conheça meu Currículo Lattes"></a>
-
-    
-    <section>
-    <h1>Quem sou eu:</h1>
-    <p>Adriano G Carvalho</p>
-    <p>Professor da Área de Construção Civil do IFTO - Campus Palmas.</p>
-    <p>Discente do curso Superior em Sistemas para Internet.</p>
-    <p>Vamos elencar aqui uma citação bastante interessante dita por <cite>Marco Túlio Cícero</cite>: <q>Viver feliz não é mais do que viver com honestidade e retidão. </q>
-    </section>
-
-
-    <section>
-        <h2>Meus Hobbies:</h2>
-        <p>Alguns hobbies que considero interessantes desenvolver em minhas horas vagas são: assistir séries, passear com a família, ir à praia.</p>
-        <p>A seguir apresento alguns links vinculados aos hobbies que tenho preferência:</p>
-        <p><a href="https://www.primevideo.com">Amazon Prime</a></p>
-        <p><a href="https://br.freepik.com/vetores-premium/familia-feliz-dos-desenhos-animados-passear-no-parque_6017480.htm">Passeando com a família</a></p>
-        <p><a href="https://www.onze.com.br/blog/ir-para-praia-sem-gastar-muito/">Indo a praia</a></p>
-    </section>
-
-    <section>
-        <h2>Meu projeto:</h2>
-        <p>Trabalhar com o desenvolvimentos de sistemas voltados à Engenharia Civil.</p>
-    </section>
-
-    <section>
-        <h2>O que estou estudando atualmente:</h2>
-        <p>
-            <table border="1">
-                <tbody>
-                <caption>Seguem as disciplinas da minha grade curricular atual:</caption>
-                <thead>
-                    <tr>
-                        <td>Grade Curricular:</td>
-                    </tr>
-                </thead>
-                <tr>
-                    <th>Disciplinas Matriculadas</th>
-                </tr>
-                <tr>
-                    <td><a href="Introducao_Prog.html">Introdução à Programação</a></td>
-                </tr>
-                <tr>
-                    <td><a href="Fundamentos_PB.html">Fundamentos e Projeto de Banco de Dados</a></td>
-                </tr>
-                <tr>
-                    <td><a href="Programacao_WEB.html">Programação Básica para WEB</a></td>
-                </tr>
-                </tbody>
-        </table></p>
-    </section>
+     <nav>
+        <ul>
+            <li><a href="#Quem">Home</a></li>
+            <li><a href="#Hobbies">Hobbies</a></li>
+            <li><a href="#Projetos">Projetos</a></li>
+            <li><a href="#Estudando">Estudando atualmente</a></li>
+            <li><a href="http://lattes.cnpq.br/8261115135036352">Meu currículo</a></li>
+            <li><a href="Contato_Externo.html">Entre em Contato</a></li>
+        </ul>
+    </nav>
+    <br>
+    <br>
+    <article>
+        <a href="http://lattes.cnpq.br/8261115135036352"><img src="Foto_Adriano1.png" alt="Foto do Adriano" style="border-radius:50%" title="Conheça meu Currículo Lattes"></a>
+        <h1>
+            <strong>Meu site pessoal</strong>
+        </h1>
+        
+        <section>
+            <h1 id="Quem">Quem sou:</h1>
+                <p>Adriano G Carvalho</p>
+                <p>Engenheiro Civil e de Segurança do Trabalho.</p>
+                <p>Mestre em Engenharia Civil pela Universidade Federal do Rio de Janeiro.</p>
+                <p>Doutor em Ciências do Ambiente pela Universidade Federal do Tocantins.</p>
+                <p>Professor da Área de Construção Civil do IFTO - Campus Palmas.</p>
+                <p>Coordenador do Curso de Bacharelado em Engenharia Civil do IFTO - Campus Palmas.</p>
+                <p>Discente do curso Superior em Sistemas para Internet.</p>
+                <p>De qualquer sorte, vale ressaltar que o mais importante na nossa vida cotidiana é sempre buscar ser uma pessoa correta.</p>
+                <p>Neste sentido vou elencar aqui uma citação bastante interessante dita por <cite>Marco Túlio Cícero</cite>: <q>Viver feliz não é mais do que viver com honestidade e retidão. </q>
+        </section>
+    <br>
+    <br>
 
         <section>
-            <h2>Contato:</h2>
+            <h2 id="Hobbies">Hobbies:</h2>
+            <p>Alguns hobbies que considero interessantes desenvolver em minhas horas vagas são: assistir séries, ir à praia, em momentos especiais gosto de passear com a família.</p>
+            <p>Ultimamente busco um tempo livre para me divertir com desenvolvimento de sistemas e/ou páginas WEB voltadas à Engenharia Civil.</p>
+            <p>De forma a ilustrar algumas dessas atividades que desenvolvo, apresento a seguir alguns links vinculados à alguns hobbies que tenho preferência:</p>
+            <p><a href="https://www.primevideo.com">Amazon Prime</a></p>
+            <p><a href="https://br.freepik.com/vetores-premium/familia-feliz-dos-desenhos-animados-passear-no-parque_6017480.htm">Passeando com a família</a></p>
+            <p><a href="https://www.onze.com.br/blog/ir-para-praia-sem-gastar-muito/">Indo a praia</a></p>
+        </section>
+        <br>
+        <br>
+        <section>
+            <h2 id="Projetos">Projetos:</h2>
+            <p>Avaliar a performance de matrizes cimentícias (argamassas) utilizando-se resíduo de vidro e fibras de polipropileno. Busca-se aqui verificar o
+                comportamento da matriz considerando-se o emprego da fibra curta de polipropileno. Para tanto, as análises estão sendo realizadas a partir
+                de um delineamento composto central rotacional - DCCR. Esta metodologia permite encontrar as misturas com resultados otimizados.</p>
+            <p>Proporcionar a capacitação de estudantes da rede pública de ensino fundamental em programação, robótica e outros conteúdos voltados a informática.
+                    Num primeiro momento tem-se capacitação em Linguagens Scratch e S4A (esta última empregada em sistemas para arduíno).</p>
+            <p>Num futuro próximo, trabalhar com desenvolvimento de sistemas voltados à atender as demandas da Engenharia Civil.</p>
+        </section>
+        <br>
+        <br>
+        <section>
+            <h2 id="Estudando">Estudando atualmente:</h2>
             <p>
-                <ul>
+                <table border="1">
+                    <tbody>
+                    <caption>Neste momento, como discente do Curso Tecnológico em Sistemas para Internet, sigo aprendendo
+                        sobre programação JAVA, desenvolvimento de páginas WEB, análise de sistemas e fundamentos de banco
+                        de dados. Seguem algumas das disciplinas da minha grade curricular atual:
+                    </caption>
+                    <thead>
+                        <tr>
+                            <td>Grade Curricular:</td>
+                        </tr>
+                    </thead>
+                    <tr>
+                        <th>Disciplinas Matriculadas</th>
+                    </tr>
+                    <tr>
+                        <td><a href="Introducao_Prog.html">Introdução à Programação</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="Fundamentos_PB.html">Fundamentos e Projeto de Banco de Dados</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="Programacao_WEB.html">Programação Básica para WEB</a></td>
+                    </tr>
+                    </tbody>
+            </table></p>
+        </section>
+        <br>
+        <br>
+        <section>
+            <h2 id="Contato">Contato:</h2>
+            <p>
+                <ol>
                     <li>Telefone: (63) 3236-4000</li>
                     <li><a href="Contato_Externo.html">Entre em contato comigo</a></li>
                     <li>Instagram: <a href="https://www.instagram.com/agcarvalho.eng/">adriano</a></li>
-                </ul>
+                </ol>
         </section>
-    <!--Página criada em 21-08-2022 às 17:00hs.-->
+    </article>
+    <!--Página criada em 24-10-2022 às 20:00hs.-->
 </body>
 
 
